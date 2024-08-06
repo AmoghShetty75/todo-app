@@ -13,7 +13,7 @@ app.post('/todo', async(req,res)=>{
 
     if(!parsePayload.success){
         res.status(411).json({
-            msg:"you sent wrong inputs"
+            msg:"you sent wrong input"
         })
         return;
     }
